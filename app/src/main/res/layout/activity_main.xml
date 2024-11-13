@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rejestruj konto"
+        android:background="#008080"
+        android:textColor="@color/white"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Podaj email" />
+
+    <EditText
+        android:id="@+id/poczta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="email"
+        android:inputType="textEmailAddress"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Podaj haslo" />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Podaj haslo"
+        android:inputType="textPassword"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Powtorz haslo" />
+
+    <EditText
+        android:id="@+id/passrepeat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Powtorz haslo"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:id="@+id/knopka"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ZATWIERDZ"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/komunikat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Autor: Vitalii Shtenyk"/>
+
+
+</LinearLayout>
